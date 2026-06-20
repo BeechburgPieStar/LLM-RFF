@@ -44,8 +44,6 @@ The pipeline is organized into three sequential stages, the first two of which a
 ```
 
 > **Note:** The directories `LLM/`, `dataset/`, `ctx_cache/`, `weights_vqvae/`, `weights_mm/`, and `logs/` are empty in this repository. Their contents (model weights, datasets, caches, and logs) are hosted on a netdisk — download and place them under the corresponding paths before running.
->
-> **Netdisk download:** `[LINK_HERE]`
 
 ## Datasets
 
