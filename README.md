@@ -1,6 +1,6 @@
 # RFF-LLM
 
-Official implementation of **"Exploring the Potential of LLMs for Cross-Domain Radio Frequency Fingerprinting"**.
+# Submit to SPL
 
 RFF-LLM is a **dual-modal framework** for cross-domain radio frequency fingerprinting (RFF). It jointly leverages waveform features from a lightweight IQ branch and the domain-agnostic prior of a **frozen LLM** (Qwen3-Embedding-0.6B). To bridge the gap between continuous IQ signals and the discrete input space of the LLM, a **VQ-VAE signal tokenizer** converts raw IQ waveforms into discrete tokens, which are then encoded by the frozen LLM under a textual prompt and fused with the IQ branch for transmitter identification.
 
